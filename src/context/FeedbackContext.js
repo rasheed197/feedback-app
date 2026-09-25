@@ -12,7 +12,8 @@ import { useSearchParams } from "react-router-dom";
 // Data
 import { feedbackIcon } from "../data";
 
-const API_URL = import.meta.env.API_URL + "/api/feedbacks/" || "/api/feedbacks/";
+// const API_URL = "https://support-desk-7jpg.onrender.com/api/feedbacks";
+const API_URL = import.meta.env.API_URL + "/api/feedbacks" || "/api/feedbacks";
 
 const FeedbackContext = createContext();
 
