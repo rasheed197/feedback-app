@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+// Custom Components
+import Header from "./components/Header/Header";
+import FeedbackForm from "./components/FeedbackForm/FeedbackForm";
+import Feedbacks from "./components/Feedbacks/Feedbacks";
+import EditFeedbackForm from "./components/EditFeedbackForm/EditFeedbackForm";
+
+// Built-in Components
+import { Route, Routes } from "react-router-dom";
+
+// Context
+import { FeedbackProvider } from "./context/FeedbackContext";
+import FeedbackDetails from "./components/FeedbackDetails/FeedbackDetails";
+import About from "./components/About/About";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <FeedbackProvider>
+        <div className="app">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header />
+                  <FeedbackForm />
+                  <Feedbacks />
+                  <EditFeedbackForm />
+                  <FeedbackDetails />
+                </>
+              }
+            />
+            <Route path="/about" element={<About />} />
+          </Routes>
+          <Footer />
+        </div>
+    </FeedbackProvider>
   );
 }
 
 export default App;
+
+// Custom Components
+
+// Built-in Components
+
+// Context
+
+// Data

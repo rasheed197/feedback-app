@@ -1,0 +1,124 @@
+.feedback {
+  display: flex;
+  gap: 28px;
+  align-items: start;
+  border-top: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;
+  border-left: 2px solid #eeeeee;
+  padding: 20px;
+
+  &:first-child {
+    border-radius: 8px 8px 0 0;
+  }
+
+  /* &:last-child {
+    border-bottom: 2px solid #eeeeee;
+    border-radius: 0 0 8px 8px;
+  } */
+
+  .emoji-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    padding: 12px;
+    background-color: rgba(55, 105, 249, 0.1);
+    border-radius: 50%;
+
+    &.red {
+      background-color: rgba(255, 0, 0, 0.1);
+    }
+
+    &.orange {
+      background-color: rgba(255, 165, 0, 0.1);
+    }
+
+    &.yellow {
+      background-color: rgba(255, 255, 0, 0.2);
+    }
+
+    &.blue {
+      background-color: rgba(55, 105, 249, 0.1);
+    }
+
+    &.green {
+      background-color: rgba(0, 255, 0, 0.1);
+    }
+
+    .emoji-icon {
+      color: rgba(55, 105, 249, 1);
+      font-size: 32px;
+
+      &.red {
+        color: rgba(255, 0, 0, 1);
+      }
+
+      &.yellow {
+        color: #f6be00;
+      }
+
+      &.blue {
+        color: rgba(55, 105, 249, 1);
+      }
+
+      &.green {
+        color: #006400;
+      }
+
+      &.orange {
+        color: rgba(255, 165, 0, 1);
+      }
+    }
+  }
+
+  .review {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+
+    .review-data {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      p.review-text {
+        color: #5a5a5a;
+        font-size: 14px;
+        cursor: pointer;
+      }
+
+      .date-container {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #999999;
+
+        span.date {
+          font-size: 12px;
+        }
+      }
+
+      p.edited {
+        font-size: 12px;
+        color: #999999;
+      }
+    }
+    .feedback-menu-container {
+      position: relative;
+      height: 30px;
+
+      span.feedback-menu {
+        display: inline-block;
+        padding: 4px;
+        border-radius: 4px;
+        text-align: center;
+
+        &:hover {
+          background-color: #eeeeee;
+        }
+      }
+    }
+  }
+}

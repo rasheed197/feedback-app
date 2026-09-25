@@ -1,0 +1,23 @@
+.ratings-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+  gap: 4px;
+  
+}
+
+
+.ratings-container {
+  /* IE and Edge */
+  -ms-overflow-style: none;
+  
+  /* Firefox */
+  scrollbar-width: none;
+}
+
+/* Chrome, Safari and Opera */
+.ratings-container::-webkit-scrollbar {
+  display: none;
+}

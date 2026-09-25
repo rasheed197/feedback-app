@@ -1,0 +1,144 @@
+.feedback-details-container {
+  position: fixed; /* Sit on top of the page content */
+  padding: 8px 8px;
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 3; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.feedback-details-container.show {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.feedback-details {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: 100%;
+  width: 100%;
+  max-width: 440px;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 16px 20px;
+  overflow: auto;
+
+  .feedback-details-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      font-size: 24px;
+    }
+
+    .close {
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .rating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 12px;
+      background-color: #eeeeee;
+      color: #006400;
+      border-radius: 24px;
+      font-size: 12px;
+      font-weight: bold;
+      gap: 12px;
+
+      &.red {
+        color: rgba(255, 0, 0, 1);
+      }
+
+      &.yellow {
+        color: #f6be00;
+      }
+
+      &.blue {
+        color: rgba(55, 105, 249, 1);
+      }
+
+      &.green {
+        color: #006400;
+      }
+
+      &.orange {
+        color: rgba(255, 165, 0, 1);
+      }
+    }
+
+    .rating.edited {
+      border-radius: 8px;
+      padding: 4px;
+      width: 76px;
+      font-size: 12px;
+    }
+  }
+
+  .feedback-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .feedback-text {
+      background-color: #eeeeee;
+      border-radius: 8px;
+      line-height: 24px;
+      font-size: 16px;
+      padding: 16px 12px;
+    }
+  }
+
+  .feedback-status {
+    .submitted-date {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .bullet {
+      font-size: 12px;
+      color: #006400;
+      margin-top: 4px;
+    }
+
+    .date {
+      color: #999999;
+      font-size: 12px;
+    }
+  }
+
+  .feedback-actions {
+    .action-button-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 12px;
+    }
+  }
+}
+
+/* color: #999999; */

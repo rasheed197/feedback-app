@@ -1,0 +1,40 @@
+.feedback-actions-card {
+  width: 168px;
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+  display: none;
+  flex-direction: column;
+  padding: 12px 20px;
+  gap: 20px;
+  position: absolute;
+  top: 30px;
+  right: -25px;
+  z-index: 10 !important;
+  background-color: #fff;
+
+  &.show {
+    display: flex;
+  }
+
+  .action-container {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+    color: #5a5a5a;
+
+    & > .delete-icon {
+        color: rgba(255, 0, 0, 0.7);
+    }
+
+    & > span {
+        font-size: 12px;
+
+        &.delete-feedback {
+            color: rgba(255, 0, 0, 0.7);
+        }
+    }
+  }
+}

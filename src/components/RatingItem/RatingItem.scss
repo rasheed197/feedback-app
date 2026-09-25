@@ -1,0 +1,97 @@
+input[type="radio"] {
+  width: 0;
+  height: 0;
+}
+
+input:checked + span.emoji-container {
+  font-weight: bold;
+}
+
+input:checked + span.emoji-container.red {
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 2px solid rgba(255, 0, 0, 1);
+
+  p {
+    color: rgba(255, 0, 0, 1);
+  }
+}
+
+input:checked + span.emoji-container.orange {
+  background-color: rgba(255, 165, 0, 0.1);
+  border: 2px solid rgba(255, 165, 0, 1);
+
+  p {
+    color: rgba(255, 165, 0, 1);
+  }
+}
+
+input:checked + span.emoji-container.yellow {
+  background-color: rgba(255, 255, 0, 0.1);
+  border: 2px solid #F6BE00;
+
+  p {
+    color: #F6BE00;
+  }
+}
+
+input:checked + span.emoji-container.blue {
+  background-color: rgba(55, 105, 249, 0.1);
+  border: 2px solid rgba(55, 105, 249, 1);
+
+  p {
+    color: rgba(55, 105, 249, 1);
+  }
+}
+
+input:checked + span.emoji-container.green {
+  background-color: rgba(0, 255, 0, 0.1);
+  border: 2px solid #006400;
+
+  p {
+    color: #006400;
+  }
+}
+
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid #eeeeee;
+  padding: 20px;
+  border-radius: 8px;
+  height: 96px;
+  min-width: 120px;
+  cursor: pointer;
+
+  .emoji {
+    font-size: 28px;
+  }
+
+  p {
+    color: #5a5a5a;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 710px) {
+  .emoji-container {
+    min-width: 80px;
+    padding: 8px;
+    height: 80px;
+
+    p {
+    font-size: 12px;
+  }
+  }
+}
+
+@media (max-width: 465px) {
+  .emoji-container {
+    min-width: 68px;
+    padding: 4px;
+  }
+}

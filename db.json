@@ -1,0 +1,117 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "feedbacks": [
+    {
+      "id": 1,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Everything works perfectly. I especially love the clean interface and fast loading speed.",
+      "date": "May 15, 2024",
+      "time": "10:30 AM",
+      "edited": false
+    },
+    {
+      "id": 2,
+      "feedbackRating": "Good",
+      "feedbackText": "I really like how easy the app is to use. The design is clean and everything feels smooth. Great experience so far.",
+      "date": "May 8, 2024",
+      "time": "2:15 PM",
+      "edited": false
+    },
+    {
+      "id": 3,
+      "feedbackRating": "Okay",
+      "feedbackText": "The app is good overall, but some sections were a little confusing at first. Maybe add a quick tutorial for new users.",
+      "date": "Apr 28, 2024",
+      "time": "9:45 AM",
+      "edited": true
+    },
+    {
+      "id": 4,
+      "feedbackRating": "Bad",
+      "feedbackText": "The app froze a few times while using it, and I had to refresh the page. Please improve performance.",
+      "date": "Apr 5, 2024",
+      "time": "2:05 AM",
+      "edited": false
+    },
+    {
+      "id": 5,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "The experience was frustrating because some buttons didn’t respond properly on mobile.",
+      "date": "Mar 10, 2024",
+      "time": "3:40 PM",
+      "edited": false
+    },
+    {
+      "id": 6,
+      "feedbackRating": "Good",
+      "feedbackText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni.",
+      "date": "Dec 10, 2025",
+      "time": "3:20 AM",
+      "edited": false
+    },
+    {
+      "id": 7,
+      "feedbackRating": "Excellent",
+      "feedbackText": "The dark mode toggle is incredibly smooth. High utility layout that respects user eyes.",
+      "date": "Jun 02, 2024",
+      "time": "11:15 PM",
+      "edited": false
+    },
+    {
+      "id": 8,
+      "feedbackRating": "Good",
+      "feedbackText": "The filtering options work well, though I wish it remembered my previous search criteria.",
+      "date": "Jun 14, 2024",
+      "time": "8:45 AM",
+      "edited": true
+    },
+    {
+      "id": 9,
+      "feedbackRating": "Okay",
+      "feedbackText": "It performs okay on desktop but loads a bit sluggishly on slower 4G mobile connections.",
+      "date": "Jun 20, 2024",
+      "time": "1:20 PM",
+      "edited": false
+    },
+    {
+      "id": 10,
+      "feedbackRating": "Bad",
+      "feedbackText": "The form submit button completely disappears on small tablet screens during checkout.",
+      "date": "Jul 01, 2024",
+      "time": "4:10 AM",
+      "edited": false
+    },
+    {
+      "id": 11,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "Constantly logs me out every time I minimize the browser tab. Incredibly annoying behavior.",
+      "date": "Jul 11, 2024",
+      "time": "9:05 PM",
+      "edited": true
+    },
+    {
+      "id": 12,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Extremely fast setup process. I integrated this into my daily workflow within five minutes.",
+      "date": "Jul 29, 2024",
+      "time": "2:30 PM",
+      "edited": false
+    },
+    {
+      "id": 14,
+      "feedbackRating": "Okay",
+      "feedbackText": "The navigation menu covers important content when expanded. A minor responsive scaling issue.",
+      "date": "Aug 15, 2024",
+      "time": "6:50 PM",
+      "edited": false
+    },
+    {
+      "id": 15,
+      "feedbackRating": "Bad",
+      "feedbackText": "Tried updating my profile image twice but it keeps throwing an unhandled server error code.",
+      "date": "Sep 03, 2024",
+      "time": "11:02 AM",
+      "edited": false
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "feedbacks": [
+    {
+      "id": 1,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Everything works perfectly. I especially love the clean interface and fast loading speed.",
+      "date": "May 15, 2024",
+      "time": "10:30 AM",
+      "edited": false
+    },
+    {
+      "id": 2,
+      "feedbackRating": "Good",
+      "feedbackText": "I really like how easy the app is to use. The design is clean and everything feels smooth. Great experience so far.",
+      "date": "May 8, 2024",
+      "time": "2:15 PM",
+      "edited": false
+    },
+    {
+      "id": 3,
+      "feedbackRating": "Okay",
+      "feedbackText": "The app is good overall, but some sections were a little confusing at first. Maybe add a quick tutorial for new users.",
+      "date": "Apr 28, 2024",
+      "time": "9:45 AM",
+      "edited": true
+    },
+    {
+      "id": 4,
+      "feedbackRating": "Bad",
+      "feedbackText": "The app froze a few times while using it, and I had to refresh the page. Please improve performance.",
+      "date": "Apr 5, 2024",
+      "time": "2:05 AM",
+      "edited": false
+    },
+    {
+      "id": 5,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "The experience was frustrating because some buttons didn’t respond properly on mobile.",
+      "date": "Mar 10, 2024",
+      "time": "3:40 PM",
+      "edited": false
+    },
+    {
+      "id": 6,
+      "feedbackRating": "Good",
+      "feedbackText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit ani.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris ni.",
+      "date": "Dec 10, 2025",
+      "time": "3:20 AM",
+      "edited": false
+    },
+    {
+      "id": 7,
+      "feedbackRating": "Excellent",
+      "feedbackText": "The dark mode toggle is incredibly smooth. High utility layout that respects user eyes.",
+      "date": "Jun 02, 2024",
+      "time": "11:15 PM",
+      "edited": false
+    },
+    {
+      "id": 8,
+      "feedbackRating": "Good",
+      "feedbackText": "The filtering options work well, though I wish it remembered my previous search criteria.",
+      "date": "Jun 14, 2024",
+      "time": "8:45 AM",
+      "edited": true
+    },
+    {
+      "id": 9,
+      "feedbackRating": "Okay",
+      "feedbackText": "It performs okay on desktop but loads a bit sluggishly on slower 4G mobile connections.",
+      "date": "Jun 20, 2024",
+      "time": "1:20 PM",
+      "edited": false
+    },
+    {
+      "id": 10,
+      "feedbackRating": "Bad",
+      "feedbackText": "The form submit button completely disappears on small tablet screens during checkout.",
+      "date": "Jul 01, 2024",
+      "time": "4:10 AM",
+      "edited": false
+    },
+    {
+      "id": 11,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "Constantly logs me out every time I minimize the browser tab. Incredibly annoying behavior.",
+      "date": "Jul 11, 2024",
+      "time": "9:05 PM",
+      "edited": true
+    },
+    {
+      "id": 12,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Extremely fast setup process. I integrated this into my daily workflow within five minutes.",
+      "date": "Jul 29, 2024",
+      "time": "2:30 PM",
+      "edited": false
+    },
+    {
+      "id": 14,
+      "feedbackRating": "Okay",
+      "feedbackText": "The navigation menu covers important content when expanded. A minor responsive scaling issue.",
+      "date": "Aug 15, 2024",
+      "time": "6:50 PM",
+      "edited": false
+    },
+    {
+      "id": 15,
+      "feedbackRating": "Bad",
+      "feedbackText": "Tried updating my profile image twice but it keeps throwing an unhandled server error code.",
+      "date": "Sep 03, 2024",
+      "time": "11:02 AM",
+      "edited": false
+    },
+    {
+      "id": 16,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "Lost all my drafted inputs because the application lacks an automatic background saving feature.",
+      "date": "Sep 18, 2024",
+      "time": "3:15 PM",
+      "edited": true
+    },
+    {
+      "id": 17,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Fantastic markdown rendering support. Writing documentation inside this UI is an absolute breeze.",
+      "date": "Oct 05, 2024",
+      "time": "8:22 AM",
+      "edited": false
+    },
+    {
+      "id": 18,
+      "feedbackRating": "Good",
+      "feedbackText": "The keyboard shortcuts make navigating data sets exceptionally efficient for power users.",
+      "date": "Oct 22, 2024",
+      "time": "5:40 PM",
+      "edited": false
+    },
+    {
+      "id": 19,
+      "feedbackRating": "Okay",
+      "feedbackText": "The text size is a little bit too small on default resolutions. Needs better scalability.",
+      "date": "Nov 09, 2024",
+      "time": "12:14 PM",
+      "edited": false
+    },
+    {
+      "id": 20,
+      "feedbackRating": "Bad",
+      "feedbackText": "Exporting history data to CSV consistently truncates the last three rows of every file.",
+      "date": "Nov 30, 2024",
+      "time": "7:33 AM",
+      "edited": true
+    },
+    {
+      "id": 21,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "Authentication system loops endlessly if you reject optional analytical tracking cookies.",
+      "date": "Dec 12, 2024",
+      "time": "2:45 AM",
+      "edited": false
+    },
+    {
+      "id": 22,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Zero bloatware, instantaneous loads, and completely intuitive design layout. Outstanding tool.",
+      "date": "Jan 05, 2025",
+      "time": "4:18 PM",
+      "edited": false
+    },
+    {
+      "id": 23,
+      "feedbackRating": "Good",
+      "feedbackText": "The dynamic search filtering accurately updates elements list without flickering bugs.",
+      "date": "Jan 19, 2025",
+      "time": "9:55 AM",
+      "edited": false
+    },
+    {
+      "id": 24,
+      "feedbackRating": "Okay",
+      "feedbackText": "Notification alerts disappear too fast before I can read the actual message payload details.",
+      "date": "Feb 08, 2025",
+      "time": "1:05 PM",
+      "edited": true
+    },
+    {
+      "id": 25,
+      "feedbackRating": "Bad",
+      "feedbackText": "The application lacks basic accessibility tags, making screen readers struggle to parse cards.",
+      "date": "Mar 01, 2025",
+      "time": "10:42 PM",
+      "edited": false
+    },
+    {
+      "id": 26,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "Major memory leak detected when switching dashboard tabs frequently. Browser tab crashes.",
+      "date": "Mar 22, 2025",
+      "time": "6:11 AM",
+      "edited": false
+    },
+    {
+      "id": 27,
+      "feedbackRating": "Excellent",
+      "feedbackText": "The automatic light to dark mode transition matches system preferences instantly. Great UX accent.",
+      "date": "Apr 11, 2025",
+      "time": "8:50 PM",
+      "edited": false
+    },
+    {
+      "id": 28,
+      "feedbackRating": "Good",
+      "feedbackText": "Very straightforward tool layout. Keeps features organized cleanly without confusing options.",
+      "date": "May 03, 2025",
+      "time": "11:24 AM",
+      "edited": false
+    },
+    {
+      "id": 29,
+      "feedbackRating": "Okay",
+      "feedbackText": "The interface works fine but the color palette looks somewhat unpolished and outdated.",
+      "date": "May 25, 2025",
+      "time": "3:19 PM",
+      "edited": true
+    },
+    {
+      "id": 30,
+      "feedbackRating": "Bad",
+      "feedbackText": "Clicking back buttons clears out state parameters entirely instead of preserving views.",
+      "date": "Jun 12, 2025",
+      "time": "7:40 AM",
+      "edited": false
+    },
+    {
+      "id": 31,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "App completely rejects password tokens containing valid punctuation symbols. Needs immediate patching.",
+      "date": "Jun 30, 2025",
+      "time": "1:55 AM",
+      "edited": false
+    },
+    {
+      "id": 32,
+      "feedbackRating": "Excellent",
+      "feedbackText": "The drag and drop list organization handles thousands of individual rows smoothly.",
+      "date": "Jul 18, 2025",
+      "time": "12:08 PM",
+      "edited": false
+    },
+    {
+      "id": 33,
+      "feedbackRating": "Good",
+      "feedbackText": "Appreciated the prompt multi language options. Made onboarding global remote teams trivial.",
+      "date": "Aug 05, 2025",
+      "time": "5:33 PM",
+      "edited": false
+    },
+    {
+      "id": 34,
+      "feedbackRating": "Okay",
+      "feedbackText": "Pagination controls are fine but infinite scrolling configurations would improve scanning lists.",
+      "date": "Aug 27, 2025",
+      "time": "9:12 AM",
+      "edited": true
+    },
+    {
+      "id": 35,
+      "feedbackRating": "Bad",
+      "feedbackText": "PDF downloader outputs completely empty file structures whenever graph visuals are embedded.",
+      "date": "Sep 14, 2025",
+      "time": "11:04 PM",
+      "edited": false
+    },
+    {
+      "id": 36,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "Two factor authentication emails take up to twenty minutes to arrive. Completely unuseable loop.",
+      "date": "Oct 02, 2025",
+      "time": "4:50 AM",
+      "edited": false
+    },
+    {
+      "id": 37,
+      "feedbackRating": "Excellent",
+      "feedbackText": "The search function indexes dynamic inputs instantly. Phenomenal performance metrics achieved.",
+      "date": "Oct 20, 2025",
+      "time": "2:14 PM",
+      "edited": false
+    },
+    {
+      "id": 38,
+      "feedbackRating": "Good",
+      "feedbackText": "Contextual help tooltips answer specific questions without making users navigate away.",
+      "date": "Nov 11, 2025",
+      "time": "8:06 AM",
+      "edited": false
+    },
+    {
+      "id": 39,
+      "feedbackRating": "Okay",
+      "feedbackText": "User profile changes apply instantly, but company wide branding assets require manual refreshing.",
+      "date": "Nov 29, 2025",
+      "time": "6:22 PM",
+      "edited": true
+    },
+    {
+      "id": 40,
+      "feedbackRating": "Bad",
+      "feedbackText": "Side drawer overlays break input click focus paths when navigating on Firefox browsers.",
+      "date": "Dec 18, 2025",
+      "time": "10:15 AM",
+      "edited": false
+    },
+    {
+      "id": 41,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "Pressing the Enter key inside textareas fires parent page resets without warning.",
+      "date": "Jan 03, 2026",
+      "time": "3:44 PM",
+      "edited": false
+    },
+    {
+      "id": 42,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Perfect scaling configurations across ultra wide aspect ratios. Extremely pleasant UI layout.",
+      "date": "Jan 22, 2026",
+      "time": "1:30 AM",
+      "edited": false
+    },
+    {
+      "id": 43,
+      "feedbackRating": "Good",
+      "feedbackText": "The copy to clipboard confirmations are highly responsive. No guessing if it worked.",
+      "date": "Feb 10, 2026",
+      "time": "9:12 AM",
+      "edited": false
+    },
+    {
+      "id": 44,
+      "feedbackRating": "Okay",
+      "feedbackText": "The upload container field accepts images smoothly, but error tracking flags are vague.",
+      "date": "Mar 02, 2026",
+      "time": "5:41 PM",
+      "edited": true
+    },
+    {
+      "id": 45,
+      "feedbackRating": "Bad",
+      "feedbackText": "Session persistence timeout drops active users mid action sequence while updating data tables.",
+      "date": "Mar 20, 2026",
+      "time": "11:28 AM",
+      "edited": false
+    },
+    {
+      "id": 46,
+      "feedbackRating": "Very Bad",
+      "feedbackText": "The mobile navigation burger menu toggle freezes completely during landscape mode layout shifts.",
+      "date": "Apr 07, 2026",
+      "time": "2:02 AM",
+      "edited": false
+    },
+    {
+      "id": 47,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Lightweight client bundle footprints ensure performance metrics remain in top tiers consistently.",
+      "date": "Apr 25, 2026",
+      "time": "7:15 PM",
+      "edited": false
+    },
+    {
+      "id": 48,
+      "feedbackRating": "Good",
+      "feedbackText": "Smooth grid row animation effects when items add or delete dynamically from tables.",
+      "date": "May 12, 2026",
+      "time": "10:44 AM",
+      "edited": false
+    },
+    {
+      "id": 49,
+      "feedbackRating": "Okay",
+      "feedbackText": "The workspace views offer decent clarity, but customization configurations feel somewhat limited.",
+      "date": "May 24, 2026",
+      "time": "4:30 PM",
+      "edited": true
+    },
+    {
+      "id": 50,
+      "feedbackRating": "Excellent",
+      "feedbackText": "Outstanding responsive layout behaviors. Works identically on ultra small viewports and massive displays.",
+      "date": "May 26, 2026",
+      "time": "3:10 PM",
+      "edited": false
+    },
+    {
+      "feedbackRating": "Good",
+      "feedbackText": "It's not that bad",
+      "date": "May 27, 2026",
+      "time": "6:23 PM",
+      "edited": true,
+      "id": 51
+    }
+  ]
+}

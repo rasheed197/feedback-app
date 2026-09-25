@@ -1,0 +1,34 @@
+.button-container {
+  display: flex;
+  justify-content: end;
+  margin-top: 24px;
+}
+
+input[type="submit"],
+input[type="button"] {
+  padding: 12px 36px;
+  border-radius: 4px;
+  background-color: rgba(55, 105, 249, 1);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"].invert,
+input[type="button"].invert {
+  background-color: white;
+  border: 2px solid #eeeeee;
+  color: black;
+}
+
+@media (max-width: 620px) {
+  .feedback-form-container {
+    padding: 20px 12px;
+  }
+
+  input[type="submit"],
+  input[type="button"] {
+    width: 100%;
+  }
+}
